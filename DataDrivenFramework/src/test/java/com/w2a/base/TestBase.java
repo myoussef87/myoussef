@@ -41,7 +41,7 @@ public class TestBase {
 	public static FileInputStream fisconfig;
 	public static FileInputStream fisor;
 	public static Logger log = Logger.getLogger("devpinoyLogger"); 
-	public static ExcelReader excel = new ExcelReader(System.getProperty(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx"));
+	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	
 	public static WebDriver driver;
 	public boolean isElementPresent(By by)

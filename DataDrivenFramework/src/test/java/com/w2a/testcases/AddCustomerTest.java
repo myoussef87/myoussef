@@ -9,13 +9,14 @@ import com.w2a.base.TestBase;
 public class AddCustomerTest extends TestBase{
 
 	@Test(dataProvider="getData")
-	public void addCustomer(String firstName, String lastName, String postCode)
+	public void addCustomer(String firstName, String lastName, String postCode) throws InterruptedException
 	{
-		driver.findElement(By.cssSelector(OR.getProperty("AddCustBtn"))).click();
+		driver.findElement(By.cssSelector(OR.getProperty("AddCustbtn"))).click();
 		driver.findElement(By.cssSelector(OR.getProperty("firstName"))).sendKeys(firstName);
 		driver.findElement(By.cssSelector(OR.getProperty("lastName"))).sendKeys(lastName);
 		driver.findElement(By.cssSelector(OR.getProperty("postCode"))).sendKeys(postCode);
 		driver.findElement(By.cssSelector(OR.getProperty("AddCustSubmitBtn"))).click();
+		Thread.sleep(10000);
 		
 	}
 	@DataProvider
@@ -28,7 +29,7 @@ public class AddCustomerTest extends TestBase{
 		
 		for (int rowNum =2 ; rowNum <=rows; rowNum++)
 		{
-			for (int colNum =2 ; colNum <=columns; colNum++)
+			for (int colNum =0 ; colNum < columns; colNum++)
 			{
 				data[rowNum-2][colNum]=excel.getCellData(sheetName,colNum,rowNum);
 			}
