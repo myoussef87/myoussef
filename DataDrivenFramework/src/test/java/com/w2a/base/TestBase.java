@@ -15,6 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -42,6 +43,7 @@ public class TestBase {
 	public static FileInputStream fisor;
 	public static Logger log = Logger.getLogger("devpinoyLogger"); 
 	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
+	public static WebDriverWait wait;
 	
 	public static WebDriver driver;
 	public boolean isElementPresent(By by)
@@ -113,7 +115,7 @@ public class TestBase {
 		log.debug("Navigated to :"+ config.getProperty("testsiteurl"));
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("Implicit.wait")), TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		
+		wait = new WebDriverWait(driver,5);
 	}
 	
 	@AfterSuite
