@@ -17,33 +17,33 @@
       <![CDATA[Capturing Screenshots]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png">Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=error.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png"><img src="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png" height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=error.jpg><img src="error.jpg" height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Capturing Screenshots]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png">Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=error.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png"><img src="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png" height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=error.jpg><img src="error.jpg" height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-02-10T13:56:02 EET" name="Data Driven Basics" finished-at="2020-02-10T13:56:03 EET" duration-ms="1635">
+  <suite started-at="2020-02-11T11:19:29 EET" name="Data Driven Basics" finished-at="2020-02-11T11:19:31 EET" duration-ms="2796">
     <groups>
     </groups>
-    <test started-at="2020-02-10T13:56:02 EET" name="Bank Manager Login Test" finished-at="2020-02-10T13:56:03 EET" duration-ms="1089">
+    <test started-at="2020-02-11T11:19:29 EET" name="Bank Manager Login Test" finished-at="2020-02-11T11:19:30 EET" duration-ms="1835">
       <class name="com.w2a.testcases.BankManagerLoginTest">
-        <test-method signature="loginBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@34158c08]" started-at="2020-02-10T13:56:02 EET" name="loginBankManager" finished-at="2020-02-10T13:56:03 EET" duration-ms="1073" status="FAIL">
+        <test-method signature="loginBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@1a20270e]" started-at="2020-02-11T11:19:29 EET" name="loginBankManager" finished-at="2020-02-11T11:19:30 EET" duration-ms="1471" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Failed Intentially]]>
@@ -100,25 +100,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Capturing Screenshots]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png">Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=error.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png"><img src="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png" height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=error.jpg><img src="error.jpg" height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginBankManager -->
       </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2020-02-10T13:56:03 EET" name="Add Customer Test" finished-at="2020-02-10T13:56:03 EET" duration-ms="513">
+    <test started-at="2020-02-11T11:19:30 EET" name="Add Customer Test" finished-at="2020-02-11T11:19:31 EET" duration-ms="924">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testcases.AddCustomerTest@53de625d]" started-at="2020-02-10T13:55:51 EET" name="setup" finished-at="2020-02-10T13:56:02 EET" duration-ms="10788" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testcases.AddCustomerTest@1b7c473a]" started-at="2020-02-11T11:19:16 EET" name="setup" finished-at="2020-02-11T11:19:29 EET" duration-ms="12238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@53de625d]" started-at="2020-02-10T13:56:03 EET" name="addCustomer" data-provider="getData" finished-at="2020-02-10T13:56:03 EET" duration-ms="501" status="FAIL">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@1b7c473a]" started-at="2020-02-11T11:19:30 EET" name="addCustomer" data-provider="getData" finished-at="2020-02-11T11:19:31 EET" duration-ms="524" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -185,17 +185,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Capturing Screenshots]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png">Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=error.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png"><img src="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png" height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=error.jpg><img src="error.jpg" height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@53de625d]" started-at="2020-02-10T13:56:03 EET" name="teardown" finished-at="2020-02-10T13:56:04 EET" duration-ms="744" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@1b7c473a]" started-at="2020-02-11T11:19:31 EET" name="teardown" finished-at="2020-02-11T11:19:32 EET" duration-ms="833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
