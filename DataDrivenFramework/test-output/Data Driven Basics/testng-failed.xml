@@ -4,7 +4,19 @@
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.w2a.listeners.CustomListeners"/>
   </listeners>
+  <test thread-count="5" name="Bank Manager Login Test(failed)">
+    <classes>
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginBankManager"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+    </classes>
+  </test> <!-- Bank Manager Login Test(failed) -->
   <test thread-count="5" name="Add Customer Test(failed)">
     <classes>
       <class name="com.w2a.testcases.AddCustomerTest">

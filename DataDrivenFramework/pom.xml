@@ -1,66 +1,73 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.w2a</groupId>
 	<artifactId>DataDrivenFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.1.0</version>
-			<scope>test</scope>
+			<version>6.11</version>
 		</dependency>
+
+
+
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>2.53.1</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 		<dependency>
 			<groupId>com.relevantcodes</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
 		<dependency>
 			<groupId>org.uncommons</groupId>
 			<artifactId>reportng</artifactId>
 			<version>1.1.4</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
 		<dependency>
 			<groupId>com.google.inject</groupId>
 			<artifactId>guice</artifactId>
 			<version>4.1.0</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.13.0</version>
-		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
 		<dependency>
 			<groupId>javax.mail</groupId>
 			<artifactId>mail</artifactId>
 			<version>1.4.7</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>6.0.5</version>
 		</dependency>
+
+
 		<!-- Dependency for POI API -->
 		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
@@ -81,21 +88,32 @@
 			<artifactId>dom4j</artifactId>
 			<version>1.1</version>
 		</dependency>
+
 		<!-- http://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
 		<dependency>
 			<groupId>org.apache.xmlbeans</groupId>
 			<artifactId>xmlbeans</artifactId>
 			<version>2.3.0</version>
 		</dependency>
+
 		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>3.6</version>
 		</dependency>
+
+
+
+
+
 	</dependencies>
+
+
+
 	<build>
 		<plugins>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -107,15 +125,30 @@
 
 					</suiteXmlFiles>
 				</configuration>
+
+
+
+
+
 			</plugin>
+
+
 		</plugins>
+		
+		
 		<testResources>
-			<testResource>
-				<directory>src/test/resources/properties</directory>
-				<includes>
-					<include>log4j.properties</include>
-				</includes>
-			</testResource>
-		</testResources>
+      <testResource>
+        <directory>src/test/resources/properties</directory>
+        <includes>
+          <include>log4j.properties</include>
+        </includes>
+      </testResource>
+    </testResources>
+		
+		
 	</build>
+
+
+
+
 </project>

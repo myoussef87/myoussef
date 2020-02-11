@@ -24,6 +24,7 @@ public class BankManagerLoginTest extends TestBase{
 		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\">Screenshot</a>");
 		Reporter.log("<br>");
 		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\"><img src=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\" height=200 width=200></img></a>");
+		Assert.fail("Test Failed Intentially");
 	}
 
 }
