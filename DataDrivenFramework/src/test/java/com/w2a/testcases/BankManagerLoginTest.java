@@ -16,10 +16,11 @@ public class BankManagerLoginTest extends TestBase{
 	{
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
 		log.debug("LoginBankManager TC");
-		driver.findElement(By.cssSelector(OR.getProperty("bmlbtn"))).click();
+		//driver.findElement(By.cssSelector(OR.getProperty("bmlbtn_css"))).click();
+		click("bmlbtn_CSS");
 		Thread.sleep(1000);
 		log.debug("Login Succeded");
-		Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("AddCustbtn"))),"Login Not Successful");
+		Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("AddCustbtn_CSS"))),"Login Not Successful");
 		Reporter.log("Login Succeded TestNG");
 		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\">Screenshot</a>");
 		Reporter.log("<br>");

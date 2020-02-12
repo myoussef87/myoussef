@@ -15,15 +15,22 @@ public class AddCustomerTest extends TestBase{
 	@Test(dataProvider="getData")
 	public void addCustomer(String firstName, String lastName, String postCode, String alerttext) throws InterruptedException
 	{
-		driver.findElement(By.cssSelector(OR.getProperty("AddCustbtn"))).click();
-		driver.findElement(By.cssSelector(OR.getProperty("firstName"))).sendKeys(firstName);
-		driver.findElement(By.cssSelector(OR.getProperty("lastName"))).sendKeys(lastName);
-		driver.findElement(By.cssSelector(OR.getProperty("postCode"))).sendKeys(postCode);
-		driver.findElement(By.cssSelector(OR.getProperty("AddCustSubmitBtn"))).click();
+		
+		//driver.findElement(By.cssSelector(OR.getProperty("AddCustbtn_css"))).click();
+		//driver.findElement(By.cssSelector(OR.getProperty("firstName_css"))).sendKeys(firstName);
+		//driver.findElement(By.cssSelector(OR.getProperty("lastName_css"))).sendKeys(lastName);
+		//driver.findElement(By.cssSelector(OR.getProperty("postCode_css"))).sendKeys(postCode);
+		//driver.findElement(By.cssSelector(OR.getProperty("AddCustSubmitBtn_css"))).click();
+		click("AddCustbtn_CSS");
+		typing("firstName_CSS", firstName);
+		typing("lastName_CSS", lastName);
+		typing("postCode_CSS", postCode);
+		click("AddCustSubmitBtn_CSS");
+
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 		Assert.assertTrue(alert.getText().contains(alerttext));
 		alert.accept();
-		Assert.fail("Test Failed Intentially");
+		Assert.fail(" Test Failed Intentially ");
 	}
 	@DataProvider
 	public Object[][] getData()

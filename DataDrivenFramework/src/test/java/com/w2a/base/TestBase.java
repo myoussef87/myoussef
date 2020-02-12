@@ -19,7 +19,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.utilities.ExcelReader;
+import com.w2a.utilities.ExtentManager;
 
 import freemarker.core.ReturnInstruction.Return;
 
@@ -28,8 +32,8 @@ public class TestBase {
 /*
  * WebDriver - Done
  * Properties - Done
- * Logs - Log4J Jar , .log , Log4j.properties
- * ExtentReports
+ * Logs - Log4J Jar , .log , Log4j.properties - Done
+ * ExtentReports - Done
  * DB
  * Excel
  * Mail
@@ -44,6 +48,8 @@ public class TestBase {
 	public static Logger log = Logger.getLogger("devpinoyLogger"); 
 	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
+	public static ExtentReports rep= ExtentManager.getInstance();
+	public static ExtentTest test;
 	
 	public static WebDriver driver;
 	public boolean isElementPresent(By by)
@@ -60,7 +66,40 @@ public class TestBase {
 		    return false;
 		}
 	}
-	
+	public void click(String locator)
+	{
+		if(locator.endsWith("_CSS"))
+		{
+			driver.findElement(By.cssSelector(OR.getProperty(locator))).click();
+		}else if(locator.endsWith("_XPATH"))
+		{
+			driver.findElement(By.xpath(OR.getProperty(locator))).click();
+		}else if(locator.endsWith("_ID"))
+		{
+			driver.findElement(By.id(OR.getProperty(locator))).click();
+		}
+			
+		test.log(LogStatus.INFO, "Clicked on Button : "+ locator);
+		
+	}
+
+	public void typing(String locator, String value)
+	{
+		if(locator.endsWith("_CSS"))
+		{
+			driver.findElement(By.cssSelector(OR.getProperty(locator))).sendKeys(value);
+		}else if(locator.endsWith("_XPATH"))
+		{
+			driver.findElement(By.xpath(OR.getProperty(locator))).sendKeys(value);
+		}else if(locator.endsWith("_ID"))
+		{
+			driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
+		}
+		
+		test.log(LogStatus.INFO, "Typing in : "+ locator +" Entered Text is : "+ value );
+		
+	}
+
 	@BeforeSuite
 	public void setup() throws InterruptedException 
 	{
