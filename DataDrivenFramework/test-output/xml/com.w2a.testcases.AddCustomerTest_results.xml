@@ -4,15 +4,15 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="0.524">
+           time="1.594">
   <properties />
-            <testcase name="addCustomer" time="0.524" classname="com.w2a.testcases.AddCustomerTest">
+            <testcase name="AddCustomerTest" time="1.594" classname="com.w2a.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
-                  message="Test Failed Intentially"
+                  message=" Test Failed Intentially "
               >
-<![CDATA[java.lang.AssertionError: Test Failed Intentially
+<![CDATA[java.lang.AssertionError:  Test Failed Intentially 
   org.testng.Assert.fail(Assert.java:97)
-  com.w2a.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:26)
+  com.w2a.testcases.AddCustomerTest.AddCustomerTest(AddCustomerTest.java:32)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="1.471">
+           time="1.672">
   <properties />
-            <testcase name="loginBankManager" time="1.471" classname="com.w2a.testcases.BankManagerLoginTest">
+            <testcase name="loginBankManager" time="1.672" classname="com.w2a.testcases.BankManagerLoginTest">
                 <failure type="java.lang.AssertionError"
                   message="Test Failed Intentially"
               >
