@@ -38,7 +38,9 @@ public void onTestFailure(ITestResult result) {
 	test.log(LogStatus.FAIL,test.addScreenCapture(TestUtil.screenshotName));
 	rep.endTest(test);
 	rep.flush();
+	Reporter.log("<br>");
 	Reporter.log("Click to see full Screenshot");
+	Reporter.log("<br>");
 	Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+">Screenshot</a>");
 	Reporter.log("<br>");
 	Reporter.log("<br>");
@@ -55,7 +57,7 @@ public void onTestStart(ITestResult result) {
 	}
 public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-	   test.log(LogStatus.PASS,result.getName().toUpperCase()+ "Pass");
+	   test.log(LogStatus.PASS,result.getName().toUpperCase()+ " Pass");
 	   rep.endTest(test);
 	   rep.flush();
 	

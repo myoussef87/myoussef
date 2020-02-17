@@ -14,7 +14,13 @@ public class OpenAccountTest extends TestBase{
 	@Test(dataProviderClass = TestUtil.class,dataProvider = "dp")
 	public void OpenAccountTest(String customer, String currency) throws InterruptedException
 	{
-		
+		click("OpenAccount_CSS");
+		select("Customer_CSS", customer);
+		select("Currency_CSS", currency);
+		click("ProcessSubmitBtn_CSS");
+		Thread.sleep(3000);
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+		alert.accept();
 		
 	}
 	

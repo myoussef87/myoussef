@@ -18,7 +18,7 @@ public class BankManagerLoginTest extends TestBase{
 	public void loginBankManager() throws InterruptedException, IOException
 	{
 		
-		verifyEquals("xyz", "abc");
+		//verifyEquals("xyz", "abc");
 		Thread.sleep(3000);
 		
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
@@ -32,7 +32,7 @@ public class BankManagerLoginTest extends TestBase{
 		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\">Screenshot</a>");
 		Reporter.log("<br>");
 		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\"><img src=\"C:\\Users\\m.yousaf\\Pictures\\2019-12-15_1650.png\" height=200 width=200></img></a>");
-		Assert.fail("Test Failed Intentially");
+		//Assert.fail("Test Failed Intentially");
 	}
 
 }

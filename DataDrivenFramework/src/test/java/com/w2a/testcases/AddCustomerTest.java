@@ -29,7 +29,8 @@ public class AddCustomerTest extends TestBase{
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 		Assert.assertTrue(alert.getText().contains(alerttext));
 		alert.accept();
-		Assert.fail(" Test Failed Intentially ");
+		//Assert.fail(" Test Failed Intentially ");
+		Thread.sleep(3000);
 	}
 
 }
