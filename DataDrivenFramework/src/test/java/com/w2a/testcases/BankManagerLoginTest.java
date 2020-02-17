@@ -5,7 +5,6 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.sun.tools.sjavac.Log;
 import com.w2a.base.TestBase;
 
 public class BankManagerLoginTest extends TestBase{
