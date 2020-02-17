@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 25.669 s <<< FAILURE! - in TestSuite
-loginBankManager(com.w2a.testcases.BankManagerLoginTest)  Time elapsed: 1.866 s  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.339 s <<< FAILURE! - in TestSuite
+loginBankManager(com.w2a.testcases.BankManagerLoginTest)  Time elapsed: 4.941 s  <<< FAILURE!
 java.lang.AssertionError: Test Failed Intentially
-	at com.w2a.testcases.BankManagerLoginTest.loginBankManager(BankManagerLoginTest.java:27)
+	at com.w2a.testcases.BankManagerLoginTest.loginBankManager(BankManagerLoginTest.java:35)
 
-AddCustomerTest(com.w2a.testcases.AddCustomerTest)  Time elapsed: 3.536 s  <<< FAILURE!
+AddCustomerTest(com.w2a.testcases.AddCustomerTest)  Time elapsed: 0.913 s  <<< FAILURE!
 java.lang.AssertionError:  Test Failed Intentially 
 	at com.w2a.testcases.AddCustomerTest.AddCustomerTest(AddCustomerTest.java:32)
 

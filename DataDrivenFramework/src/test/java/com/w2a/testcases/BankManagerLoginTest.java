@@ -1,5 +1,9 @@
 package com.w2a.testcases;
 
+import static org.testng.Assert.assertEquals;
+
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -11,8 +15,12 @@ public class BankManagerLoginTest extends TestBase{
 	
 	
 	@Test
-	public void loginBankManager() throws InterruptedException
+	public void loginBankManager() throws InterruptedException, IOException
 	{
+		
+		verifyEquals("xyz", "abc");
+		Thread.sleep(3000);
+		
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
 		log.debug("LoginBankManager TC");
 		//driver.findElement(By.cssSelector(OR.getProperty("bmlbtn_css"))).click();

@@ -15,6 +15,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -23,6 +25,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.utilities.ExcelReader;
 import com.w2a.utilities.ExtentManager;
+import com.w2a.utilities.TestUtil;
 
 
 public class TestBase {
@@ -95,6 +98,30 @@ public class TestBase {
 		
 		test.log(LogStatus.INFO, "Typing in : "+ locator +" Entered Text is : "+ value );
 		
+	}
+	
+	//Function for Soft assertion to continue executing rest of TCs and steps
+	public static void verifyEquals(String actual,String expected) throws IOException 
+	{
+		try 
+		{
+			Assert.assertEquals(actual, expected);
+			
+		}
+		catch(Throwable e)
+		{
+			TestUtil.captureScreenshot();
+			//ReportNG
+			Reporter.log("<br>");
+			Reporter.log("Verification failure : "+ e.getMessage());
+			Reporter.log("<br>");
+			Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+"><img src=\""+TestUtil.screenshotName+"\" height=200 width=200></img></a>");
+			Reporter.log("<br>");
+			Reporter.log("<br>");
+			//ExtentReport
+			test.log(LogStatus.FAIL," Verification failure with exception : " + e.getMessage());
+			test.log(LogStatus.FAIL,test.addScreenCapture(TestUtil.screenshotName));
+		}
 	}
 
 	@BeforeSuite
