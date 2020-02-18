@@ -46,14 +46,15 @@ public void onTestFailure(ITestResult result) {
 	Reporter.log("<br>");
 	Reporter.log("<br>");
 	Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+"><img src=\""+TestUtil.screenshotName+"\" height=200 width=200></img></a>");
-		
 	}
+
 public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
 	test.log(LogStatus.SKIP,result.getName().toUpperCase()+ " Skipped As Run Mode is N ");
 	 rep.endTest(test);
 	   rep.flush();
 	}
+
 public void onTestStart(ITestResult result) {
 		test = rep.startTest(result.getName().toUpperCase());
 		//RunMode  - Y
@@ -68,7 +69,6 @@ public void onTestSuccess(ITestResult result) {
 	   test.log(LogStatus.PASS,result.getName().toUpperCase()+ " Pass");
 	   rep.endTest(test);
 	   rep.flush();
-	
 	
 	}
 }

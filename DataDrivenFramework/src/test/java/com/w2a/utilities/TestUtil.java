@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Date;
+import java.util.Hashtable;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -30,15 +32,25 @@ public class TestUtil extends TestBase{
 		String sheetName= m.getName();
 		int rows = excel.getRowCount(sheetName);
 		int columns= excel.getColumnCount(sheetName);
-		Object[][] data=new Object[rows-1][columns];
+		Object[][] data=new Object[rows-1][1];
+		
+		
+		//Creating a Hashtable per each row with key is first row and value changes based on rows
+		Hashtable<String, String> table=null;
 		
 		for (int rowNum =2 ; rowNum <=rows; rowNum++)
 		{
+			//Create new hashTable per row
+			table= new Hashtable<String, String>();
 			for (int colNum =0 ; colNum < columns; colNum++)
 			{
-				data[rowNum-2][colNum]=excel.getCellData(sheetName,colNum,rowNum);
+				System.out.println(excel.getCellData(sheetName, colNum, 1));
+				System.out.println(excel.getCellData(sheetName, colNum, rowNum));
+				table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum)); //set 1st row as a key and set value based on rows 
+				data[rowNum-2][0] = table; //set data as hashtable 
+				
 			}
-			
+			System.out.println("\n");
 		}
 		
 		return data;

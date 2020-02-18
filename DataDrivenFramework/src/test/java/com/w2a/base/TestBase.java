@@ -52,8 +52,9 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public static ExtentReports rep= ExtentManager.getInstance();
 	public static ExtentTest test;
-	
 	public static WebDriver driver;
+	
+	//Check Element presence
 	public boolean isElementPresent(By by)
 	{
 		try 
@@ -68,6 +69,8 @@ public class TestBase {
 		    return false;
 		}
 	}
+	
+	//Click Action on a web element 
 	public void click(String locator)
 	{
 		if(locator.endsWith("_CSS"))
@@ -85,6 +88,7 @@ public class TestBase {
 		
 	}
 
+	//Enter text on a web element
 	public void typing(String locator, String value)
 	{
 		if(locator.endsWith("_CSS"))
@@ -102,6 +106,7 @@ public class TestBase {
 		
 	}
 	
+	//Select item from drop down list
 	static WebElement dropdown;
 	public void select(String  locator, String value)
 	{
@@ -145,6 +150,7 @@ public class TestBase {
 		}
 	}
 
+	//Load configuration Config.properties and OR.properties and open selected browser 
 	@BeforeSuite
 	public void setup() throws InterruptedException 
 	{
@@ -202,6 +208,7 @@ public class TestBase {
 		wait = new WebDriverWait(driver,5);
 	}
 	
+	//Close browser session
 	@AfterSuite
 	public void teardown() 
 	{
