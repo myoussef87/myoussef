@@ -12,7 +12,7 @@ import com.w2a.utilities.TestUtil;
 public class OpenAccountTest extends TestBase{
 
 	@Test(dataProviderClass = TestUtil.class,dataProvider = "dp")
-	public void OpenAccountTest(String customer, String currency) throws InterruptedException
+	public void openAccountTest(String customer, String currency) throws InterruptedException
 	{
 		click("OpenAccount_CSS");
 		select("Customer_CSS", customer);

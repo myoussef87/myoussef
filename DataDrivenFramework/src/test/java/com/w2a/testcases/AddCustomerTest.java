@@ -12,7 +12,7 @@ import com.w2a.utilities.TestUtil;
 public class AddCustomerTest extends TestBase{
 
 	@Test(dataProviderClass=TestUtil.class,dataProvider = "dp")
-	public void AddCustomerTest(String firstName, String lastName, String postCode, String alerttext) throws InterruptedException
+	public void addCustomerTest(String firstName, String lastName, String postCode, String alerttext) throws InterruptedException
 	{
 		
 		//driver.findElement(By.cssSelector(OR.getProperty("AddCustbtn_css"))).click();

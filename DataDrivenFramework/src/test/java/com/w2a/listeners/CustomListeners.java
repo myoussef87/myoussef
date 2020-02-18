@@ -6,6 +6,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.base.TestBase;
@@ -49,10 +50,17 @@ public void onTestFailure(ITestResult result) {
 	}
 public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-	
+	test.log(LogStatus.SKIP,result.getName().toUpperCase()+ " Skipped As Run Mode is N ");
+	 rep.endTest(test);
+	   rep.flush();
 	}
 public void onTestStart(ITestResult result) {
 		test = rep.startTest(result.getName().toUpperCase());
+		//RunMode  - Y
+		if(!TestUtil.isTestRunnable(result.getName(), excel)) 
+		{
+			throw new SkipException("Skipping test case : "+result.getName().toUpperCase()+" As Run Mode is N ");
+		}
 	
 	}
 public void onTestSuccess(ITestResult result) {
