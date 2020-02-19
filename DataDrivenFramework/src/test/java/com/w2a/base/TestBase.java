@@ -53,6 +53,7 @@ public class TestBase {
 	public static ExtentReports rep= ExtentManager.getInstance();
 	public static ExtentTest test;
 	public static WebDriver driver;
+	public static String browser;
 	
 	//Check Element presence
 	public boolean isElementPresent(By by)
@@ -185,6 +186,17 @@ public class TestBase {
 				e.printStackTrace();
 			}
 		}
+		
+		if(System.getenv("browser")!=null && !System.getenv("browser").isEmpty())
+		{
+			browser = System.getenv("browser");
+			
+		}
+		else
+		{
+			browser = config.getProperty("browser");
+		}
+		config.setProperty("browser", browser);
 		if(config.getProperty("browser").equals("firefox")) 
 		{
 			//System.setProperty("webdriver.gecko.driver", "gecko.exe");
@@ -192,13 +204,13 @@ public class TestBase {
 		}
 		else if(config.getProperty("browser").equals("chrome")) 
 		{
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
 			driver= new ChromeDriver();
 			log.debug("Chrome Launched!!");
 		}
 		else if(config.getProperty("browser").equals("IE")) 
 		{
-			//System.setProperty("webdriver.gecko.driver", "gecko.exe");
+			//System.setProperty("webdriver.IE.driver", "IE.exe");
 			driver= new InternetExplorerDriver();
 		}
 		driver.get(config.getProperty("testsiteurl"));
