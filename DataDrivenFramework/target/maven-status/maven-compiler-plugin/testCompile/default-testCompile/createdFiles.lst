@@ -7,6 +7,7 @@ com\w2a\testcases\BankManagerLoginTest.class
 com\w2a\utilities\ExtentManager.class
 com\w2a\utilities\TestUtil.class
 com\w2a\utilities\ExcelReader.class
+com\w2a\rough\TestLogs.class
 com\w2a\rough\TestTimeStamp.class
 com\w2a\listeners\CustomListeners.class
 com\w2a\rough\TestProperties.class

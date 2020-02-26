@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -25,9 +25,13 @@ import org.testng.annotations.BeforeSuite;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
+import com.w2a.rough.TestLogs;
 import com.w2a.utilities.ExcelReader;
 import com.w2a.utilities.ExtentManager;
 import com.w2a.utilities.TestUtil;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 
 public class TestBase {
@@ -47,7 +51,7 @@ public class TestBase {
 	public static Properties OR=new Properties();
 	public static FileInputStream fisconfig;
 	public static FileInputStream fisor;
-	public static Logger log = Logger.getLogger("devpinoyLogger"); 
+	public static Logger log = LogManager.getLogger("Base");
 	public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 	public static WebDriverWait wait;
 	public static ExtentReports rep= ExtentManager.getInstance();
