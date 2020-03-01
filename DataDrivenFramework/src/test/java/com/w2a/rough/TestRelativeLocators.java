@@ -31,6 +31,20 @@ public class TestRelativeLocators {
 		// $x("//tagName[starts-with(@attribute ,'value')]/following-sibling::tagName") --- to find following siblings
 		// $x("//tagName[starts-with(@attribute ,'value')]/preceding-sibling::tagName") --- to find preceding siblings
 		// index   $x("//form[@class='ajaxsubmit']/div/div/input[@type='submit'][1]") 
+		
+		
+        ////CSS Selectors///
+		// Normal -> $$("input[id='identifierid']")
+		// Concat -> $$("input[id='identifierid'][type='email']")
+		// starts with -> $$("input[id^='identifierid']")
+		// Ends with -> $$("input[id$='identifierid']")
+		// contains with -> $$("input[id*='identifierid']")
+		// with id -> $$("#identifierid")
+		// with id and tag -> $$("input#identifierid")
+		// with Class -> $$("div.ClassName")
+		// with Child -> $$("div.ClassName > div > div:first-child") $$("div.ClassName > div > div:last-child") $$("div.ClassName > div > div:nth-child(2)")
+		
+		
 	} 
 
 }
