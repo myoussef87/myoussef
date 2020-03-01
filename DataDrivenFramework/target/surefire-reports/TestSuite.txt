@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 51.541 s - in TestSuite
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 55.082 s - in TestSuite

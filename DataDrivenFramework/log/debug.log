@@ -1,8 +1,8 @@
-2020-02-26 11:35:17 DEBUG Base:173 - Config File Loaded!!
-2020-02-26 11:35:17 DEBUG Base:187 - OR File Loaded!!
-2020-02-26 11:35:22 DEBUG Base:213 - Chrome Launched!!
-2020-02-26 11:35:38 DEBUG Base:221 - Navigated to :http://way2automation.com/angularjs-protractor/banking/#/login
-2020-02-26 11:35:45 DEBUG Base:25 - LoginBankManager TC
-2020-02-26 11:35:46 DEBUG Base:28 - Login Succeded
-2020-02-26 11:35:46 DEBUG Base:68 - Element Found
-2020-02-26 11:36:05 DEBUG Base:234 - Test Execution completed
+2020-02-27 12:17:23 DEBUG Base:173 - Config File Loaded!!
+2020-02-27 12:17:23 DEBUG Base:187 - OR File Loaded!!
+2020-02-27 12:17:29 DEBUG Base:213 - Chrome Launched!!
+2020-02-27 12:17:43 DEBUG Base:221 - Navigated to :http://way2automation.com/angularjs-protractor/banking/#/login
+2020-02-27 12:17:50 DEBUG Base:25 - LoginBankManager TC
+2020-02-27 12:17:51 DEBUG Base:28 - Login Succeded
+2020-02-27 12:17:51 DEBUG Base:68 - Element Found
+2020-02-27 12:18:07 DEBUG Base:234 - Test Execution completed

@@ -1,35 +1,116 @@
-11:35:46,518 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:35:46,520 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:35:46,521 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:35:46,521 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:35:46,521 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:35:53,804 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:35:53,804 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:35:53,805 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:35:53,805 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:35:53,805 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:35:57,035 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:35:57,036 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:35:57,037 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:35:57,038 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:35:57,038 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:36:00,234 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:36:00,235 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:36:00,235 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:36:00,235 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:36:00,235 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:36:00,261 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:36:00,262 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:36:00,262 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:36:00,262 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:36:00,262 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:36:00,286 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:36:00,286 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:36:00,287 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:36:00,287 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:36:00,287 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:36:05,087 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-11:36:05,088 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-11:36:05,088 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:36:05,088 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:36:05,088 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/m.yousaf/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+15:23:04,035 DEBUG InternalLoggerFactory:47 - Using Log4J as the default logging framework
+15:23:04,038 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+15:23:04,039 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+15:23:04,050 DEBUG PlatformDependent:987 - Platform: Windows
+15:23:04,051 DEBUG PlatformDependent0:396 - -Dio.netty.noUnsafe: false
+15:23:04,051 DEBUG PlatformDependent0:852 - Java version: 13
+15:23:04,052 DEBUG PlatformDependent0:121 - sun.misc.Unsafe.theUnsafe: available
+15:23:04,052 DEBUG PlatformDependent0:145 - sun.misc.Unsafe.copyMemory: available
+15:23:04,052 DEBUG PlatformDependent0:183 - java.nio.Buffer.address: available
+15:23:04,053 DEBUG PlatformDependent0:253 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:225)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:219)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:273)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:171)
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:213)
+	at io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:194)
+	at io.netty.util.HashedWheelTimer.<clinit>(HashedWheelTimer.java:89)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:97)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:87)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:71)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:28)
+	at org.openqa.selenium.remote.http.netty.CreateNettyClient.apply(CreateNettyClient.java:34)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.<init>(NettyHttpHandler.java:39)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:68)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:71)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:73)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:63)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:66)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.w2a.rough.TestNewTabs.main(TestNewTabs.java:18)
+15:23:04,055 DEBUG PlatformDependent0:314 - java.nio.Bits.unaligned: available, true
+15:23:04,056 DEBUG PlatformDependent0:373 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @22e357dc
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:376)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:642)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:559)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:335)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:326)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:273)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:171)
+	at io.netty.util.ResourceLeakDetector.<init>(ResourceLeakDetector.java:213)
+	at io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:194)
+	at io.netty.util.HashedWheelTimer.<clinit>(HashedWheelTimer.java:89)
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:97)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:87)
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:71)
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:28)
+	at org.openqa.selenium.remote.http.netty.CreateNettyClient.apply(CreateNettyClient.java:34)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.<init>(NettyHttpHandler.java:39)
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:68)
+	at org.openqa.selenium.remote.http.HttpClient$Factory.createClient(HttpClient.java:71)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:73)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:63)
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:66)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at com.w2a.rough.TestNewTabs.main(TestNewTabs.java:18)
+15:23:04,056 DEBUG PlatformDependent0:386 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+15:23:04,056 DEBUG PlatformDependent:1030 - sun.misc.Unsafe: available
+15:23:04,065 DEBUG PlatformDependent:1130 - maxDirectMemory: 2134900736 bytes (maybe)
+15:23:04,065 DEBUG PlatformDependent:1149 - -Dio.netty.tmpdir: C:\Users\M7977~1.YOU\AppData\Local\Temp (java.io.tmpdir)
+15:23:04,066 DEBUG PlatformDependent:1228 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+15:23:04,066 DEBUG PlatformDependent:174 - -Dio.netty.maxDirectMemory: -1 bytes
+15:23:04,066 DEBUG PlatformDependent:181 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+15:23:04,067 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+15:23:04,067 DEBUG PlatformDependent:201 - -Dio.netty.noPreferDirect: false
+15:23:04,067 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@28f2a10f
+15:23:04,073 DEBUG PlatformDependent:891 - org.jctools-core.MpscChunkedArrayQueue: available
+15:23:04,096 DEBUG JdkSslContext:96 - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+15:23:04,096 DEBUG JdkSslContext:97 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+15:23:04,110 DEBUG InternalThreadLocalMap:54 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+15:23:04,110 DEBUG InternalThreadLocalMap:57 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+15:23:04,113 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+15:23:04,118 DEBUG NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+15:23:04,118 DEBUG NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+15:23:04,183 DEBUG PooledByteBufAllocator:142 - -Dio.netty.allocator.numHeapArenas: 16
+15:23:04,183 DEBUG PooledByteBufAllocator:143 - -Dio.netty.allocator.numDirectArenas: 16
+15:23:04,183 DEBUG PooledByteBufAllocator:145 - -Dio.netty.allocator.pageSize: 8192
+15:23:04,183 DEBUG PooledByteBufAllocator:150 - -Dio.netty.allocator.maxOrder: 11
+15:23:04,183 DEBUG PooledByteBufAllocator:154 - -Dio.netty.allocator.chunkSize: 16777216
+15:23:04,183 DEBUG PooledByteBufAllocator:155 - -Dio.netty.allocator.tinyCacheSize: 512
+15:23:04,184 DEBUG PooledByteBufAllocator:156 - -Dio.netty.allocator.smallCacheSize: 256
+15:23:04,184 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.normalCacheSize: 64
+15:23:04,184 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+15:23:04,184 DEBUG PooledByteBufAllocator:159 - -Dio.netty.allocator.cacheTrimInterval: 8192
+15:23:04,184 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+15:23:04,184 DEBUG PooledByteBufAllocator:161 - -Dio.netty.allocator.useCacheForAllThreads: true
+15:23:04,184 DEBUG PooledByteBufAllocator:162 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+15:23:04,188 DEBUG ByteBufUtil:85 - -Dio.netty.allocator.type: pooled
+15:23:04,188 DEBUG ByteBufUtil:94 - -Dio.netty.threadLocalDirectBufferSize: 0
+15:23:04,188 DEBUG ByteBufUtil:97 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+15:23:04,874 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 16708 (auto-detected)
+15:23:04,875 DEBUG NetUtil:139 - -Djava.net.preferIPv4Stack: false
+15:23:04,876 DEBUG NetUtil:140 - -Djava.net.preferIPv6Addresses: false
+15:23:04,912 DEBUG NetUtil:224 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+15:23:04,912 DEBUG NetUtil:289 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+15:23:04,950 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: b4:2e:99:ff:fe:85:9a:42 (auto-detected)
+15:23:04,982 DEBUG AbstractByteBuf:62 - -Dio.netty.buffer.checkAccessible: true
+15:23:04,982 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkBounds: true
+15:23:04,982 DEBUG ResourceLeakDetectorFactory:195 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ee26047
+15:23:04,998 DEBUG Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+15:23:04,998 DEBUG Recycler:97 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+15:23:04,998 DEBUG Recycler:98 - -Dio.netty.recycler.linkCapacity: 16
+15:23:04,998 DEBUG Recycler:99 - -Dio.netty.recycler.ratio: 8
+15:23:09,567 DEBUG ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0x0d7a8c47df63367b

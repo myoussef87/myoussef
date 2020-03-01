@@ -3,6 +3,8 @@ com\w2a\rough\TestHashTable.class
 com\w2a\testcases\AddCustomerTest.class
 com\w2a\utilities\MonitoringMail$SMTPAuthenticator.class
 com\w2a\utilities\MonitoringMail$1.class
+com\w2a\rough\DbManager.class
+com\w2a\rough\TestDBConn.class
 com\w2a\testcases\BankManagerLoginTest.class
 com\w2a\utilities\ExtentManager.class
 com\w2a\utilities\TestUtil.class
