@@ -8,21 +8,45 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Data Driven Basics</th></tr>
-<tr><td><a href="#t0">Bank Manager Login Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,197</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Add Customer Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,006</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">4,203</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">37</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Data Driven Basics</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Manager Login Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.w2a.testcases.BankManagerLoginTest</td><td><a href="#m0">loginBankManager</a></td><td rowspan="1">1581934893083</td><td rowspan="1">1672</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Add Customer Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.w2a.testcases.AddCustomerTest</td><td><a href="#m1">AddCustomerTest</a></td><td rowspan="1">1581934895310</td><td rowspan="1">1594</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.w2a.rough.TestNG</td><td><a href="#m0">test1</a></td><td rowspan="1">1583232775887</td><td rowspan="1">7</td></tr></tbody>
 </table>
-<h2>Bank Manager Login Test</h2><h3 id="m0">com.w2a.testcases.BankManagerLoginTest#loginBankManager</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Login Succeded TestNG<br/><a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png">Screenshot</a><br/><br><br/><a target="_blank" href="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png"><img src="C:\Users\m.yousaf\Pictures\2019-12-15_1650.png" height=200 width=200></img></a><br/>Click to see full Screenshot<br/><a target="_blank" href=Mon_Feb_17_12_21_34_EET_2020.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Mon_Feb_17_12_21_34_EET_2020.jpg><img src="Mon_Feb_17_12_21_34_EET_2020.jpg" height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Test Failed Intentially
-	at com.w2a.testcases.BankManagerLoginTest.loginBankManager(BankManagerLoginTest.java:27)
+<h2>Default test</h2><h3 id="m0">com.w2a.rough.TestNG#test1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [2] but found [1],
+	expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.w2a.rough.TestNG.test1(TestNG.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Add Customer Test</h2><h3 id="m1">com.w2a.testcases.AddCustomerTest#AddCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Mohamed</td><td>Youssef</td><td>11725.0</td><td>Customer added successfully</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">Click to see full Screenshot<br/><a target="_blank" href=Mon_Feb_17_12_21_36_EET_2020.jpg>Screenshot</a><br/><br><br/><br><br/><a target="_blank" href=Mon_Feb_17_12_21_36_EET_2020.jpg><img src="Mon_Feb_17_12_21_36_EET_2020.jpg" height=200 width=200></img></a></div></td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">java.lang.AssertionError:  Test Failed Intentially 
-	at com.w2a.testcases.AddCustomerTest.AddCustomerTest(AddCustomerTest.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
