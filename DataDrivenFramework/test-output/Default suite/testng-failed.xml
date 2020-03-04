@@ -8,6 +8,7 @@
           <include name="test1"/>
           <include name="beforeMethood"/>
           <include name="before"/>
+          <include name="test2"/>
         </methods>
       </class> <!-- com.w2a.rough.TestNG -->
     </classes>
